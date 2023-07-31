@@ -1,0 +1,12 @@
+.vscode
+coverage
+dist
+node_modules
+
+.env
+.eslintignore
+jest.config.ts
+nodemon.json
+
+tsconfig.json
+tsup.config.ts

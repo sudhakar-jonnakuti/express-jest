@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "types": ["node", "jest"],
+    "lib": ["es2022"],
+    "module": "commonjs",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "alwaysStrict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "moduleResolution": "Node",
+    "paths": {
+      "@common/*": ["src/common/*"],
+      "@exception/*": ["src/exception/*"],
+      "@module/*": ["src/module/*"],
+      "@route/*": ["src/route/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "tests/**/*.spec.ts"],
+  "exclude": ["coverage", "dist", "node_modules"]
+}
